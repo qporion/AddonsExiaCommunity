@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Exia Community",
+  "description": "Test Chrome Extension",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "manette.png",
+    "default_title": "Exia Community"
+  },
+  
+  "background":{
+    "scripts":["background.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "notifications"
+  ]
+}
